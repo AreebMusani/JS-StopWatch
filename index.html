@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areeb | StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="head">
+            <p><span class="big">S</span>TOP<span class="big afterbig">W</span><span class="afterbig">ATCH</span></p>
+        </div>
+        <div class="watch">
+            <div class="a">
+                <h1 id="hrs">00</h1>
+                <p>HOURS</p>
+            </div>
+            <h1>:</h1>
+            <div class="a">
+                <h1 id="min">00</h1>
+                <p>MINUTES</p>
+            </div>
+            <h1>:</h1>
+            <div class="a">
+                <h1 id="sec">00</h1>
+                <p>SECONDS</p>
+            </div>
+            <h1>.</h1>
+            <div class="a">
+                <h1 id="milli">00</h1>
+                <p>M.SECONDS</p>
+            </div>
+        </div>
+        <div class="btns">
+            <button id="start" onclick="start()">START</button>
+            <button onclick="pause()">PAUSE</button>
+            <button onclick="reset()">RESET</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
